@@ -5,9 +5,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun BasicComposable() {
+fun OtherComposable() {
     Column() {
-        Text("This is FlavorA basic composable")
-        Text("Column")
+        Text(text = "This is another composable")
     }
 }
