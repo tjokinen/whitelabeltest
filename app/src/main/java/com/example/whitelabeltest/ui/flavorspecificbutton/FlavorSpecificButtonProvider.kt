@@ -1,4 +1,4 @@
-package com.example.whitelabeltest.ui
+package com.example.whitelabeltest.ui.flavorspecificbutton
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier

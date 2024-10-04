@@ -8,6 +8,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.example.whitelabeltest.ui.brandedgreeting.BrandedGreetingProvider
+import com.example.whitelabeltest.ui.flavorspecificbutton.FlavorSpecificButtonProvider
 import org.koin.compose.koinInject
 
 @Composable
