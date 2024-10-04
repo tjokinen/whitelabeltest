@@ -4,6 +4,6 @@ import com.example.whitelabeltest.ui.*
 import org.koin.dsl.module
 
 val appModule = module {
-    single<BrandedGreetingProvider> { DefaultBrandedGreetingProvider() }
-    single<FlavorSpecificButtonProvider> { DefaultFlavorSpecificButtonProvider() }
+    factory<BrandedGreetingProvider> { DefaultBrandedGreetingProvider() }
+    factory<FlavorSpecificButtonProvider> { DefaultFlavorSpecificButtonProvider() }
 }
